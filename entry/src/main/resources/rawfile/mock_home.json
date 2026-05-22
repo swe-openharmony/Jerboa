@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": "announce-1",
+      "community": "Announcements by Nutomic",
+      "author": "Nutomic",
+      "age": "1d",
+      "title": "Open beta testing for Lemmy 1.0.0",
+      "body": "What is lemmy\nLemmy is a self-hosted social link aggregation and discussion platform. It is completely free and open, and not controlled by any company. This means that there is no advertising, tracking,",
+      "hasThumb": false,
+      "comments": 56,
+      "upvotes": 267,
+      "downvotes": 0
+    },
+    {
+      "id": "linux-1",
+      "community": "Linux by beep@piefed.world",
+      "author": "beep@piefed.world",
+      "age": "2d",
+      "title": "Linus Torvalds says AI-powered bug hunters have made Linux security mailing list 'almost entirely unmanageable'",
+      "body": "lkml.org\ncross-posted from: https://piefed.world/c/tech/p/1131733/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost",
+      "hasThumb": true,
+      "comments": 20,
+      "upvotes": 203,
+      "downvotes": 1
+    },
+    {
+      "id": "privacy-1",
+      "community": "Privacy by wslyvh",
+      "author": "wslyvh",
+      "age": "18h",
+      "title": "",
+      "body": "Paperweight scans your inbox to map your digital footprint, then helps you take back control and delete your data. Local-first and open source.\ngithub.com",
+      "hasThumb": true,
+      "comments": 0,
+      "upvotes": 0,
+      "downvotes": 0
+    }
+  ]
+}

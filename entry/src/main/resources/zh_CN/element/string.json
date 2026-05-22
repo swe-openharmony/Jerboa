@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Jerboa"
+    },
+    {
+      "name": "module_desc",
+      "value": "Jerboa main module"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Jerboa main entry ability"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Jerboa"
+    }
+  ]
+}

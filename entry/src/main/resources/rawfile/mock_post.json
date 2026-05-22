@@ -1,0 +1,51 @@
+{
+  "post": {
+    "communityName": "announcements@lemmy.ml",
+    "communityStatus": "Active",
+    "bannerTitle": "Announcements",
+    "bannerUsersText": "319 users / month",
+    "postAuthor": "Nutomic",
+    "postTimeText": "1d",
+    "postTitle": "Open beta testing for Lemmy 1.0.0",
+    "postBody": "Two years have already passed since we started working on some major new features for Lemmy. Back then we still planned to release them as version 0.20, but over time the scope expanded and it turned into version 1.0 instead. Below you can see the list of major new features. This is far from complete.",
+    "postScore": 267
+  },
+  "comments": [
+    {
+      "id": "c1",
+      "author": "Nutomic",
+      "body": "During the past month we finished the remaining, major tasks for 1.0 alpha. This means that we are ready to publish the first beta version.",
+      "score": 89,
+      "myVote": 0,
+      "timeText": "2w",
+      "depth": 0
+    },
+    {
+      "id": "c2",
+      "author": "dessalines",
+      "body": "Lemmy Release v0.19.18 is also out today. join-lemmy.org has the changelog.",
+      "score": 56,
+      "myVote": 0,
+      "timeText": "1M",
+      "depth": 0
+    },
+    {
+      "id": "c3",
+      "author": "commenter_x",
+      "body": "Great news! Looking forward to the new card view.",
+      "score": 12,
+      "myVote": 1,
+      "timeText": "5d",
+      "depth": 1
+    },
+    {
+      "id": "c4",
+      "author": "commenter_y",
+      "body": "Will multi-communities support sorted feeds?",
+      "score": 4,
+      "myVote": 0,
+      "timeText": "4d",
+      "depth": 2
+    }
+  ]
+}
