@@ -1,19 +1,4 @@
-// ====================================================================
 // Page: PostActivityPage
-// App: Jerboa
-// Android baseline:
-//   - D:/OH-Appforge/_doc_screenshots_v2/Jerboa/L1_2_post_detail.png
-//   - D:/OH-Appforge/_doc_screenshots_v2/Jerboa/L1_2_post_detail.xml
-// Layout contract:
-//   - Top bar: back + community name + "Active" + Sort + More
-//   - Community header card: avatar circle + community title + "X users / month" + Subscribe button
-//   - Post card: author + flags + time + title + body (markdown plain) + score/vote/bookmark/more
-//   - Flattened comment list (each comment has `depth`; render indent via padding)
-//   - Floating Create-post FAB
-// ====================================================================
-// NOTE: ArkTS does not support @Component recursion well; we flatten the
-// comment tree into a list with `depth` and indent by padding({ left: depth*24 }).
-// ====================================================================
 
 import { router } from '@kit.ArkUI';
 import { hilog } from '@kit.PerformanceAnalysisKit';

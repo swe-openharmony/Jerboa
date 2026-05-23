@@ -1,15 +1,4 @@
-// ====================================================================
-// Page: Index (Jerboa L0 Home — Lemmy Local Active feed)
-// Android baseline: D:/OH-Appforge/_doc_screenshots_v2/Jerboa/L0_home.png
-// Layout contract:
-//   - Top bar: ≡ drawer + "Local / Active" stacked title + ⊞ scope + ⤓ sort + ⋮ overflow
-//   - Vertical scrollable list of post rows; each row:
-//       community name + author + age   /   bold post title   /   body excerpt
-//       /   thumbnail (right) on some   /   bottom action row: 💬 comments  ↑votes ↓  🔖
-//   - Bottom nav 5 tabs: Home (active) | Search | Inbox | Saved | Profile
-// Navigation:
-//   - Tap any post row → PostActivityPage (with postId param)
-// ====================================================================
+// Page: Index
 
 import { router } from '@kit.ArkUI';
 import { hilog } from '@kit.PerformanceAnalysisKit';
