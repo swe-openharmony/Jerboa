@@ -25,10 +25,26 @@ export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
     hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onCreate');
     this.applyTargetFromWant(want);
+    this.captureTestParams(want);
+  }
+
+  // Capture deterministic test-mode params so a single installed build can be driven
+  // into otherwise-unreachable session states (guest / downvotes-off / simulated write
+  // failure). Launch with: aa start -b <bundle> -a EntryAbility --ps session guest
+  private captureTestParams(want: Want): void {
+    const params = want.parameters;
+    if (!params) { return; }
+    const keys: string[] = ['session', 'writefail'];
+    for (const k of keys) {
+      if (typeof params[k] === 'string') {
+        AppStorage.setOrCreate<string>('test_' + k, params[k] as string);
+      }
+    }
   }
 
   onNewWant(want: Want, launchParam: AbilityConstant.LaunchParam): void {
     hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onNewWant');
+    this.captureTestParams(want);
     const changed = this.applyTargetFromWant(want);
     if (changed && this.windowStage) {
       hilog.info(0x0000, 'testTag', 'onNewWant reloading content -> %{public}s', this.targetPage);

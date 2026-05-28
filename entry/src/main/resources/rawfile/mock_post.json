@@ -1,51 +1,75 @@
 {
+  "session": { "downvotesEnabled": true, "isGuest": false },
   "post": {
+    "postId": "announce-1",
+    "communityId": "comm1",
     "communityName": "announcements@lemmy.ml",
-    "communityStatus": "Active",
+    "communityStatus": "Hot",
     "bannerTitle": "Announcements",
     "bannerUsersText": "319 users / month",
+    "subscribed": false,
     "postAuthor": "Nutomic",
     "postTimeText": "1d",
     "postTitle": "Open beta testing for Lemmy 1.0.0",
     "postBody": "Two years have already passed since we started working on some major new features for Lemmy. Back then we still planned to release them as version 0.20, but over time the scope expanded and it turned into version 1.0 instead. Below you can see the list of major new features. This is far from complete.",
-    "postScore": 267
+    "postScore": 267,
+    "myVote": 0,
+    "saved": false,
+    "featuredLocal": true,
+    "featuredCommunity": false
   },
   "comments": [
     {
-      "id": "c1",
-      "author": "Nutomic",
+      "id": "c1", "parentId": "", "author": "alpha_dev",
       "body": "During the past month we finished the remaining, major tasks for 1.0 alpha. This means that we are ready to publish the first beta version.",
-      "score": 89,
-      "myVote": 0,
-      "timeText": "2w",
-      "depth": 0
+      "score": 89, "myVote": 0, "saved": false, "timeText": "2w",
+      "edited": true, "editTimeText": "2h",
+      "hotRank": 50, "createdOrder": 5, "controversy": 3,
+      "hasMoreChildren": true
     },
     {
-      "id": "c2",
-      "author": "dessalines",
+      "id": "c2", "parentId": "", "author": "dessalines",
       "body": "Lemmy Release v0.19.18 is also out today. join-lemmy.org has the changelog.",
-      "score": 56,
-      "myVote": 0,
-      "timeText": "1M",
-      "depth": 0
+      "score": 56, "myVote": 0, "saved": false, "timeText": "1M",
+      "edited": false, "editTimeText": "",
+      "hotRank": 90, "createdOrder": 4, "controversy": 9,
+      "hasMoreChildren": false
     },
     {
-      "id": "c3",
-      "author": "commenter_x",
+      "id": "c3", "parentId": "c2", "author": "commenter_x",
       "body": "Great news! Looking forward to the new card view.",
-      "score": 12,
-      "myVote": 1,
-      "timeText": "5d",
-      "depth": 1
+      "score": 12, "myVote": 1, "saved": false, "timeText": "5d",
+      "edited": false, "editTimeText": "",
+      "hotRank": 30, "createdOrder": 3, "controversy": 2,
+      "hasMoreChildren": false
     },
     {
-      "id": "c4",
-      "author": "commenter_y",
+      "id": "c4", "parentId": "c3", "author": "commenter_y",
       "body": "Will multi-communities support sorted feeds?",
-      "score": 4,
-      "myVote": 0,
-      "timeText": "4d",
-      "depth": 2
+      "score": 4, "myVote": 0, "saved": false, "timeText": "4d",
+      "edited": false, "editTimeText": "",
+      "hotRank": 10, "createdOrder": 2, "controversy": 1,
+      "hasMoreChildren": false
+    },
+    {
+      "id": "c5", "parentId": "gone-7", "author": "commenter_z",
+      "body": "Replying to a deleted parent comment.",
+      "score": 2, "myVote": 0, "saved": false, "timeText": "3d",
+      "edited": false, "editTimeText": "",
+      "hotRank": 5, "createdOrder": 1, "controversy": 1,
+      "hasMoreChildren": false
     }
-  ]
+  ],
+  "moreReplies": {
+    "c1": [
+      {
+        "id": "c1a", "parentId": "c1", "author": "late_replier",
+        "body": "Thanks for the update, this is exciting!",
+        "score": 7, "myVote": 0, "saved": false, "timeText": "1d",
+        "edited": false, "editTimeText": "",
+        "hotRank": 20, "createdOrder": 6, "controversy": 1,
+        "hasMoreChildren": false
+      }
+    ]
+  }
 }
